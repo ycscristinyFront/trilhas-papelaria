@@ -1,27 +1,27 @@
 function simularMinhaCompra() {
-    let precoCaderno = 20;
-    let precoCaneta = 5;
-    let precoMochila = 80;
+    let precoStranger = 5;
+    let precoBreaking = 6;
+    let precoWandinha = 4;
 
-    let qtdCaderno = Number(prompt("Informe a quantidade de Caderno (R$ 20,00):"));
-    let qtdCaneta = Number(prompt("Informe a quantidade de Caneta (R$ 5,00):"));
-    let qtdMochila = Number(prompt("Informe a quantidade de Mochila (R$ 80,00):"));
+    let qtdStranger = Number(prompt("Quantas diárias de 'Stranger Things' (R$ 5,00/dia) você quer?"));
+    let qtdBreaking = Number(prompt("Quantas diárias de 'Breaking Bad' (R$ 6,00/dia) você quer?"));
+    let qtdWandinha = Number(prompt("Quantas diárias de 'Wandinha' (R$ 4,00/dia) você quer?"));
 
-    let totalCaderno = precoCaderno * qtdCaderno;
-    let totalCaneta = precoCaneta * qtdCaneta;
-    let totalMochila = precoMochila * qtdMochila;
+    let totalStranger = precoStranger * qtdStranger;
+    let totalBreaking = precoBreaking * qtdBreaking;
+    let totalWandinha = precoWandinha * qtdWandinha;
 
-    let totalGeral = totalCaderno + totalCaneta + totalMochila;
+    let totalGeral = totalStranger + totalBreaking + totalWandinha;
 
     if (totalGeral === 0) {
-        alert("Nenhum produto foi selecionado.");
+        alert("Nenhuma diária foi selecionada.");
     } else {
         alert(
-            "Resumo do Pedido:\n\n" +
-            "Caderno: " + qtdCaderno + "x = R$ " + totalCaderno + ",00\n" +
-            "Caneta: " + qtdCaneta + "x = R$ " + totalCaneta + ",00\n" +
-            "Mochila: " + qtdMochila + "x = R$ " + totalMochila + ",00\n\n" +
-            "Total Geral: R$ " + totalGeral + ",00"
+            "=== RECIBO CINEFLIX LOCADORA ===\n\n" +
+            "Stranger Things: " + qtdStranger + " dias = R$ " + totalStranger + ",00\n" +
+            "Breaking Bad: " + qtdBreaking + " dias = R$ " + totalBreaking + ",00\n" +
+            "Wandinha: " + qtdWandinha + " dias = R$ " + totalWandinha + ",00\n\n" +
+            "Total da Locação: R$ " + totalGeral + ",00"
         );
     }
 }
