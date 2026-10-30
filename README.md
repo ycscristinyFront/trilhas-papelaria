@@ -1,26 +1,26 @@
-# Desafio 1 — Trilhas Papelaria: Simulador de Compras
+# Desafio 1 — CineFlix Locadora: Simulador de Compras
 
 * **Aluno:** [Yasmim Cristiny da Silva dos Santos]
 * **Trilha:** [Desenvolvimento Mobile]
 
 ## Sobre o Projeto
-Este projeto é uma página web simples que simula o funcionamento de um carrinho de compras para uma papelaria fictícia. O objetivo é aplicar os conceitos básicos de HTML para estruturação, CSS para estilização e JavaScript para a lógica de cálculos e interações com o usuário.
+Este projeto é uma página web que simula o funcionamento de um carrinho de compras para uma locadora online de séries de TV. O objetivo é aplicar os conceitos básicos de HTML para estruturação, CSS para estilização e JavaScript para a lógica de cálculos das diárias de aluguel.
 
-### Produtos Disponíveis:
-* Caderno: R$ 20,00
-* Caneta: R$ 5,00
-* Mochila: R$ 80,00
+### Séries e Preço das Diárias:
+* Stranger Things: R$ 5,00 por dia
+* Breaking Bad: R$ 6,00 por dia
+* Wandinha: R$ 4,00 por dia
 
 ## Tecnologias Utilizadas
-* HTML: Usei para criar os textos, botões e a tabela para organizar a lista de produtos.
-* CSS: Usei para aplicar as cores do exemplo (tons de verde e cinza), ajustar as fontes e deixar a tabela organizada.
-* JavaScript: Usei para fazer a função do botão. Ela pede as quantidades, faz as contas de multiplicação e mostra o resultado na tela.
+* HTML: Usei para criar os cabeçalhos, instruções, o botão de simulação e a tabela com o catálogo de séries.
+* CSS: Usei para criar uma identidade visual com tema escuro usando as cores preta e vermelha.
+* JavaScript: Usei para criar a função de simulação que pergunta o número de diárias, faz a multiplicação dos valores e exibe o extrato final com o total a pagar.
 
 ## Como Testar o Projeto
-1. Abra o arquivo index.html no navegador.
-2. Clique no botão "Simular minha compra".
-3. Digite a quantidade desejada de cada item nas caixas que vão aparecer na tela.
-4. Veja o resultado final com o total do pedido.
+1. Abra o site no seu navegador.
+2. Clique no botão "Simular minha locação".
+3. Informe a quantidade de dias que deseja alugar cada série.
+4. Confira o recibo com o valor final no alerta da tela.
 
 ## Dificuldades e Aprendizados
-A maior dificuldade foi entender como ligar o arquivo HTML com o JavaScript usando o evento de clique do botão, e lembrar de converter o texto do prompt em número. Aprendi bastante sobre como as três tecnologias funcionam juntas para criar uma página interativa.
+A maior dificuldade foi converter as respostas de texto do prompt em números e adaptar a lógica de produtos físicos para locação por diárias. Aprendi a estruturar uma página com estilo escuro e a integrar funções interativas em JavaScript.
