@@ -2,54 +2,53 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Trilhas Papelaria</title>
+    <title>CineFlix Locadora</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Trilhas Papelaria</h1>
-        <p class="subtitulo">Simulador de compras · Exemplo para o desafio</p>
+        <h1>CineFlix Locadora 🎬</h1>
+        <p class="subtitulo">Sua locação de séries favorita · Alugue por dia</p>
         <hr>
-        <p>Nesta papelaria fictícia, você escolhe as quantidades e recebe o valor da compra.</p>
+        <p>Escolha quantas diárias você quer alugar de cada série e simule o valor total do seu plano.</p>
     </header>
 
     <main>
-        <h2>1. Confira os produtos</h2>
-        <p class="legenda">Preços por unidade</p>
+        <h2>1. Catálogo de Séries para Locação</h2>
+        <p class="legenda">Preço da diária por série</p>
 
         <table>
             <thead>
                 <tr>
-                    <th>Produto</th>
-                    <th>Preço</th>
+                    <th>Série</th>
+                    <th>Valor da Diária</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Caderno</td>
-                    <td>R$ 20,00</td>
-                </tr>
-                <tr>
-                    <td>Caneta</td>
+                    <td>Stranger Things</td>
                     <td>R$ 5,00</td>
                 </tr>
                 <tr>
-                    <td>Mochila</td>
-                    <td>R$ 80,00</td>
+                    <td>Breaking Bad</td>
+                    <td>R$ 6,00</td>
+                </tr>
+                <tr>
+                    <td>Wandinha</td>
+                    <td>R$ 4,00</td>
                 </tr>
             </tbody>
         </table>
 
-        <h2>2. Simule uma compra</h2>
+        <h2>2. Faça sua Reserva</h2>
         <ol>
-            <li>Clique no botão abaixo.</li>
-            <li>Nas janelas do navegador, informe a quantidade de cada produto, de 0 a 99. Use 0 para não comprar aquele item.</li>
-            <li>Confira o total da sua compra na mensagem final.</li>
+            <li>Clique no botão abaixo para começar.</li>
+            <li>Digite quantas diárias (dias) você quer assistir de cada série. Se não quiser alguma, digite 0.</li>
+            <li>O sistema calcula o valor total do aluguel.</li>
         </ol>
-        <p>Use números inteiros. Para sair sem concluir, clique em Cancelar em qualquer pergunta.</p>
-
-        <button onclick="simularMinhaCompra()">Simular minha compra</button>
+        
+        <button onclick="simularMinhaCompra()">Simular minha locação</button>
     </main>
 
     <footer>
